@@ -1,0 +1,104 @@
+.navbar-main-organizer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 12px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-main-organizer .navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-main-organizer .navbar-links {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-main-organizer .navbar-link {
+  text-decoration: none;
+  color: #cbd5e1;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-main-organizer .navbar-link:hover {
+  background-color: #374151;
+  color: #ffffff;
+}
+
+.navbar-main-organizer .navbar-link.active {
+  background-color: #4b5563;
+  color: #ffffff;
+}
+
+.navbar-main-organizer .navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-main-organizer .navbar-search-container {
+  display: flex;
+  align-items: center;
+  background-color: #374151;
+  border-radius: 30px;
+  padding: 6px 10px;
+  width: 140px;
+  border: 1px solid #4b5563;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.navbar-main-organizer .navbar-search-container.expanded {
+  width: 240px;
+}
+
+.navbar-main-organizer .search-icon {
+  font-size: 16px;
+  color: #9ca3af;
+  margin-right: 6px;
+}
+
+.navbar-main-organizer .navbar-search-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.navbar-main-organizer .notification-icon {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #f3f4f6;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navbar-main-organizer .notification-icon:hover {
+  color: #e5e7eb;
+}
+
+.navbar-main-organizer .logout-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-main-organizer .logout-button:hover {
+  background-color: #dc2626;
+}

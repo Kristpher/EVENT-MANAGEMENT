@@ -1,0 +1,47 @@
+.notifications-page {
+  padding: 1rem;
+  color: white;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.notification-item {
+  background: #222;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #444;
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-item.unseen {
+  border-left: 5px solid #00bfff;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.notif-actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.notif-actions button {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+}

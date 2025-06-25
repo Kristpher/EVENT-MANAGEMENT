@@ -1,0 +1,35 @@
+.mainFirstPagediv {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a2e; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainFirstPagediv h1 {
+  font-size: 2.5rem;
+  color: #e0e0e0;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.mainFirstPagediv button {
+  background-color: #e9902a; 
+  color: white;
+  padding: 12px 24px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 220px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); 
+}
+
+.mainFirstPagediv button:hover {
+  background-color: #f34e02; 
+  transform: scale(1.03);
+}

@@ -1,0 +1,49 @@
+.pending-event-card-admin {
+  background-color:#1f2937;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  margin: 12px auto;
+}
+
+.pending-event-card-admin:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background-color:#2e3c4f;
+}
+
+.pending-event-card-admin .pending-event-header {
+  margin-bottom: 10px;
+}
+
+.pending-event-card-admin .event-title {
+  font-size: 18px;
+  margin: 0;
+  color: #fcfcfc;
+}
+
+.pending-event-card-admin .org-name {
+  font-size: 14px;
+  color: #888;
+}
+
+.pending-event-card-admin .pending-event-image {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.pending-event-card-admin .pending-event-description {
+  font-size: 14px;
+  color: #cdc6c6;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;      
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

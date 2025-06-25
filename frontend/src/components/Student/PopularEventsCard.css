@@ -1,0 +1,121 @@
+.MainPopularEvents .MainPopularEventsCard {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  width:480px
+}
+
+.MainPopularEvents .PopularEventsCard {
+  background-color: #1f2937;
+  padding: 20px;
+  border-radius: 30px;
+  width: 90%; 
+  max-width: 1000px; 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.MainPopularEvents .card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.MainPopularEvents .event-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.MainPopularEvents .org-name {
+  font-size: 1rem;
+  color: #d3d5d8;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+.MainPopularEvents .card-body {
+  display: flex;
+  gap: 20px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.MainPopularEvents .popularActions {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.MainPopularEvents .event-image {
+  width: 220px;
+  flex-shrink: 0;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.MainPopularEvents .card-info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MainPopularEvents .event-description {
+  font-size: 1rem;
+  width: 200px;
+  color: #d0d1d2;
+ display: -webkit-box;
+  -webkit-line-clamp: 4;      
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MainPopularEvents .card-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.MainPopularEvents .detail-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #dddddd;
+}
+
+.MainPopularEvents .icon {
+  color: #c4c5c8;
+}
+
+.MainPopularEvents .popularActions button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.MainPopularEvents .popularActions button:hover {
+  background-color: #2563eb;
+}
+
+.MainPopularEvents .descAndImage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+.MainPopularEvents h2{
+  color: white;
+}

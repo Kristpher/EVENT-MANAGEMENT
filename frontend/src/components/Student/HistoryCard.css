@@ -1,0 +1,52 @@
+.history-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  width: 280px;
+  font-family: "Segoe UI", sans-serif;
+  cursor: pointer;
+}
+
+.history-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.history-card .card-image-container {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.history-card .event-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.history-card .org-name-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 8px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.history-card .card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.history-card .event-name {
+  font-size: 1.1rem;
+  color: #1f2937;
+  font-weight: 600;
+  margin: 0;
+}

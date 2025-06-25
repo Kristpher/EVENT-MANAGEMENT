@@ -1,0 +1,82 @@
+.complete-event-organizer {
+  max-width: 750px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background:#1f2937;
+  color:white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.complete-event-organizer .event-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.complete-event-organizer .event-image {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 1rem 0;
+  border: 2px solid #ddd;
+}
+
+.complete-event-organizer .event-description {
+  color: rgb(255, 255, 255);
+  font-size:15px;
+}
+
+.complete-event-organizer .event-info {
+  text-align: left;
+  padding: 0 1rem;
+    width: 100%;             
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color:white;
+}
+
+.complete-event-organizer .event-info p {
+  display: flex;
+  align-items: center;
+  font-size: 1.05rem;
+  color: #ffffff;
+  margin-bottom: 0.8rem;
+}
+
+.complete-event-organizer .icon {
+  margin-right: 0.6rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.complete-event-organizer .no-event {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  color: #e74c3c;
+}
+
+.complete-event-organizer button{
+  background-color: rgb(103, 103, 198);
+  color: white;
+  border-radius: 40px;
+  border:none;
+  height:30px;
+  width:150px
+}
+
+.complete-event-organizer .event-title{
+  color: white;
+}
+
+.complete-event-organizer button:hover {
+  background-color: rgb(127, 127, 218);
+  cursor: pointer;
+}

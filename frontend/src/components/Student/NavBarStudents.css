@@ -1,0 +1,100 @@
+.MainNavabarStudents {
+  background-color: #1f2937;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.MainNavabarStudents .NavbarStudents {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.MainNavabarStudents .NavbarTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.MainNavabarStudents .LinksStudentsNavbar {
+  display: flex;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.MainNavabarStudents .StudentsLink {
+  text-decoration: none;
+  color: #cbd5e1;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.StudentsLink.active,
+.StudentsLink:hover {
+  background-color: #374151;
+  color: white;
+}
+
+.MainNavabarStudents .Searchbar {
+  display: flex;
+  align-items: center;
+  background-color: #374151;
+  padding: 6px 10px;
+  border-radius: 30px;
+  border: 1px solid #4b5563;
+  width: 160px;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.MainNavabarStudents .Searchbar.expanded {
+  width: 240px;
+}
+
+.MainNavabarStudents .searchIcon {
+  color: #9ca3af;
+  margin-right: 8px;
+}
+
+.Search-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+  width: 100%;
+}
+
+.StudentButtons {
+  display: flex;
+  gap: 12px;
+}
+
+.notificationBtn,
+.logoutBtn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logoutBtn {
+  background-color: #ef4444;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.logoutBtn:hover {
+  background-color: #dc2626;
+}
+
+.StudentMainContent {
+  padding: 24px;
+}

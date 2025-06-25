@@ -1,0 +1,51 @@
+.navbar-admin-wrapper .navbar-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #1f2937; 
+  color: white;
+}
+
+.navbar-admin-wrapper .admin-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-admin-wrapper .admin-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-admin-wrapper .admin-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-admin-wrapper .admin-link:hover,
+.navbar-admin-wrapper .admin-link.active {
+  background-color: #374151;
+}
+
+.navbar-admin-wrapper .admin-logout {
+  background-color: #ef4444;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-admin-wrapper .admin-logout:hover {
+  background-color: #dc2626;
+}
+
+.navbar-admin-wrapper .admin-content {
+  padding: 20px;
+}

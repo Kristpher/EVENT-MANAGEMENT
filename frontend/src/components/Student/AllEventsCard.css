@@ -1,0 +1,146 @@
+.MainAllEventsCard-student {
+    background-color: #1f2937;
+  padding: 24px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainAllEventsCard-student .allEventsHeading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #c6c6c6;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  
+
+}
+
+.MainAllEventsCard-student .eventTopRow {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.MainAllEventsCard-student .eventCardImage {
+  width: 300px;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.MainAllEventsCard-student .eventCardDescription {
+  font-size: 1rem;
+  color: #cccdcf;
+  line-height: 1.5;
+  max-width: 500px;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;      
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MainAllEventsCard-student .eventDetailsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 30px;
+  margin: 16px 0;
+}
+
+.MainAllEventsCard-student .detailItem {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #d9dbde;
+  gap: 10px;
+}
+
+.MainAllEventsCard-student .detailItem i {
+  color: #cbccce;
+  font-size: 1.1rem;
+}
+
+.MainAllEventsCard-student .eventCardActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.MainAllEventsCard-student .interestedBtn,
+.MainAllEventsCard-student .viewBtn {
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.MainAllEventsCard-student .interestedBtn {
+  background-color: #f9fafb;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.MainAllEventsCard-student .interestedBtn:hover {
+  background-color: #e0f2fe;
+}
+
+.MainAllEventsCard-student .fas.filled {
+  color: #facc15;
+}
+
+.MainAllEventsCard-student .viewBtn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.MainAllEventsCard-student .viewBtn:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  .MainAllEventsCard-student .eventTopRow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .MainAllEventsCard-student .eventCardImage {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .MainAllEventsCard-student .eventCardDescription {
+    text-align: center;
+  }
+
+  .MainAllEventsCard-student .eventCardActions {
+    flex-direction: column;
+  }
+  .MainAllEventsCard-student Actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,21 @@
+.pending-events-page-admin {
+  background-color: #f6f9fc; 
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.pending-events-page-admin .pending-page-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+.pending-events-page-admin .pending-events-grid {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 20px;
+}

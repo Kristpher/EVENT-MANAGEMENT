@@ -1,0 +1,66 @@
+import AllEventsCard from "./AllEventsCard";
+import "./AllEvents.css";
+import { useState,useEffect } from "react";
+
+const IntEvents = ({searchQueryStudent}) => {
+     const [Events, setEvents] = useState([]);
+     const [orgs,setOrgs]=useState([]);
+     const [organs, setOrgans] = useState("CSEA");
+       const BACKEND_URL=process.env.REACT_APP_BACKEND_URL;
+     const [interestedEvents,setInterestedEvents]=useState([]);
+       const [registeredEvents,setRegisteredEvents]=useState([]);
+    useEffect(() => {
+       const fetchData = async () => {
+         try {
+           const response = await fetch(`${BACKEND_URL}/getinterested`, {
+             method: "GET",
+             headers: {
+               "Content-type": "application/json",
+               "auth-token": localStorage.getItem("auth-token"),
+             },
+           });
+           const data = await response.json();
+           console.log("refined data", data);
+           if (data.success) {
+              const orgNames = [...new Set(data.interestedEvents.map(item => item.organisationName))];
+              setOrgs(orgNames);
+              setEvents(data.interestedEvents);
+              setInterestedEvents(data.interestedIds);
+              setRegisteredEvents(data.registeredIds)
+                  if (orgNames.length > 0) {
+           setOrgans(orgNames[0]);
+         }
+           } else {
+             console.log("error", data.message);
+           }
+         } catch (error) {
+           console.error("pending events Error:", error);
+           console.log("Error connecting to the server.");
+         }
+       };
+   
+       fetchData();
+     }, []);
+
+  return (
+    <div className="MainAllEvents">
+      <div className="organisation">
+        {orgs.map((item, index) => (
+          <div key={index} className="org-circle" onClick={()=>setOrgans(item)}>
+           <p> {item}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="events-grid">
+        {Events &&Events.filter(event=>(organs===event.organisationName)).filter(
+          item=>!searchQueryStudent || item.eventName.toLowerCase().includes(searchQueryStudent.toLowerCase())
+        ).map((item, index) => (
+          <AllEventsCard key={index} events={item}  isInterested={interestedEvents.includes(item._id)} isRegistered={registeredEvents.includes(item._id)}/>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default IntEvents;
