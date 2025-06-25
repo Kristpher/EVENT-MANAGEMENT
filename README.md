@@ -71,7 +71,20 @@ This project is built targeting my college to simplify event handling for studen
 
 ### install all dependencies
 - npm install express mongoose cors dotenv multer jsonwebtoken bcryptjs
-<pre> ## 📁 Folder Structure ``` Event-Management/ ├── backend/ # Backend (Node + Express + MongoDB) │ ├── index.js # Main backend file │ ├── .env # Environment variables (not pushed to GitHub) │ └── package.json # Backend dependencies ├── frontend/ # Frontend (React) │ ├── src/ │ │ ├── components/ # Reusable UI components │ │ ├── pages/ # Different screens/pages │ │ ├── App.js # App root │ │ └── index.js # Entry point │ └── package.json # Frontend dependencies ├── .gitignore ├── README.md ``` </pre>
+## Folder Structure
+- Event-Management/
+- ├── backend/          # Backend (Node + Express + MongoDB)
+- │   ├── index.js      # Main backend file
+- │   ├── .env          # Environment variables
+- │   └── package.json  # Backend dependencies
+- ├── frontend/         # Frontend (React)
+- │   ├── src/
+- │   │   ├── components/  # Reusable UI components
+- │   │   ├── pages/       # Different screens/pages
+- │   │   ├── App.js       # App root
+- │   │   └── index.js     # Entry point
+- │   └── package.json     # Frontend dependencies
+- ├── README.md
 
 
 ## 🙌 Acknowledgements
