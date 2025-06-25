@@ -58,27 +58,18 @@ node index.js
 cd ../frontend
 npm start
 
-📦 Backend Dependencies
+# 📦 Backend Dependencies
 express – server framework
-
 mongoose – MongoDB object modeling
-
 cors – handle cross-origin requests
-
 dotenv – environment variables
-
 multer – file/image upload handling
-
 jsonwebtoken – JWT authentication
-
 bcryptjs – password hashing
-
 path – Node.js built-in (file paths)
-
 fs – Node.js built-in (file system)
 
-install all dependencies
-
+# install all dependencies
 npm install express mongoose cors dotenv multer jsonwebtoken bcryptjs
 
 Event-Management/
@@ -96,12 +87,12 @@ Event-Management/
 ├── README.md
 
 
-🙌 Acknowledgements
+# 🙌 Acknowledgements
 React.js
 Node.js & Express.js
 MongoDB
 
-🔗 Author
+# 🔗 Author
 Made with by Navaneeth DS
 GitHub: https://github.com/kristpher
 
