@@ -32,8 +32,8 @@ This project is built targeting my college to simplify event handling for studen
 ## 🚀 Installation & Setup
 
 - Clone the repository
-- git clone https://github.com/your-username/your-repository.git
-- cd your-repository
+- git clone https://github.com/Kristpher/EVENT-MANAGEMENT.git
+- cd EVENT-MANAGEMENT
 
 ### Install frontend dependencies
 - cd frontend
