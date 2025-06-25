@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jw": "^0.0.0",
+    "mongodb": "5.5",
+    "mongoose": "^8.15.2",
+    "multer": "^2.0.1"
+  }
+}
