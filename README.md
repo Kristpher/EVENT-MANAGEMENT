@@ -31,68 +31,68 @@ This project is built targeting my college to simplify event handling for studen
 
 ## 🚀 Installation & Setup
 
-# Clone the repository
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+- Clone the repository
+- git clone https://github.com/your-username/your-repository.git
+- cd your-repository
 
-# Install frontend dependencies
-cd frontend
-npm install
+### Install frontend dependencies
+- cd frontend
+- npm install
 
-# Install backend dependencies
-cd ../backend
-npm install
+### Install backend dependencies
+- cd ../backend
+- npm install
 
-# Create .env file in backend
-# PORT=5000
-# MONGO_URL=your_mongodb_connection
-# JWT_SECRET=your_secret_key
-# ADMIN_EMAIL
-# ADMIN_PASSWORD
+- Create .env file in backend
+- PORT=5000
+- MONGO_URL=your_mongodb_connection
+- JWT_SECRET=your_secret_key
+- ADMIN_EMAIL
+- ADMIN_PASSWORD
 
-# Start backend
-cd ../backend
-node index.js
+### Start backend
+- cd ../backend
+- node index.js
 
-# Start frontend (open a new terminal)
-cd ../frontend
-npm start
+### Start frontend (open a new terminal)
+- cd ../frontend
+- npm start
 
-# 📦 Backend Dependencies
-express – server framework
-mongoose – MongoDB object modeling
-cors – handle cross-origin requests
-dotenv – environment variables
-multer – file/image upload handling
-jsonwebtoken – JWT authentication
-bcryptjs – password hashing
-path – Node.js built-in (file paths)
-fs – Node.js built-in (file system)
+### 📦 Backend Dependencies
+- express – server framework
+- mongoose – MongoDB object modeling
+- cors – handle cross-origin requests
+- dotenv – environment variables
+- multer – file/image upload handling
+- jsonwebtoken – JWT authentication
+- bcryptjs – password hashing
+- path – Node.js built-in (file paths)
+- fs – Node.js built-in (file system)
 
-# install all dependencies
-npm install express mongoose cors dotenv multer jsonwebtoken bcryptjs
+### install all dependencies
+- npm install express mongoose cors dotenv multer jsonwebtoken bcryptjs
+## Folder Structure
+-Event-Management/
+- ├── backend/          # Backend (Node + Express + MongoDB)
+- │   ├── index.js      # Main backend file
+- │   ├── .env          # Environment variables
+- │   └── package.json  # Backend dependencies
+- ├── frontend/         # Frontend (React)
+- │   ├── src/
+- │   │   ├── components/  # Reusable UI components
+- │   │   ├── pages/       # Different screens/pages
+- │   │   ├── App.js       # App root
+- │   │   └── index.js     # Entry point
+- │   └── package.json     # Frontend dependencies
+- ├── README.md
 
-Event-Management/
-├── backend/          # Backend (Node + Express + MongoDB)
-│   ├── index.js      # Main backend file
-│   ├── .env          # Environment variables
-│   └── package.json  # Backend dependencies
-├── frontend/         # Frontend (React)
-│   ├── src/
-│   │   ├── components/  # Reusable UI components
-│   │   ├── pages/       # Different screens/pages
-│   │   ├── App.js       # App root
-│   │   └── index.js     # Entry point
-│   └── package.json     # Frontend dependencies
-├── README.md
 
+## 🙌 Acknowledgements
+- React.js
+- Node.js & Express.js
+- MongoDB
 
-# 🙌 Acknowledgements
-React.js
-Node.js & Express.js
-MongoDB
-
-# 🔗 Author
-Made with by Navaneeth DS
-GitHub: https://github.com/kristpher
+## 🔗 Author
+- Made with by Navaneeth DS
+- GitHub: https://github.com/kristpher
 
